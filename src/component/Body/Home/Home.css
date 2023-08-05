@@ -1,0 +1,138 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.book-ticket-container, .common-routes-container{
+    width: 1000px;
+    padding: 10px 10px;
+    margin-top: 15px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 20px 1px hsla(0,0%,54.5%,.4);
+}
+
+.place-select-container{
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+.place-select-from{
+    position: relative;
+    text-align: center;
+    float: left;
+    padding: 10px;
+    border: 1px solid #b0b0b0;
+    border-radius: 12px;
+}
+.arrow-change{
+    margin: 30px 10px;
+    position: relative;
+    border: 1px solid #b0b0b0;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    transition: transform 0.1s;
+}
+.arrow-change:hover{
+    opacity: 0.8;
+    background-color: #ddd;
+}
+.arrow-change:active{
+    background-color: #b0b0b0;
+    transform: rotate(180deg);
+}
+
+.place-select-to{
+    text-align: center;
+    position: relative;
+    float: right;
+    padding: 10px;
+    border: 1px solid #b0b0b0;
+    border-radius: 12px;
+}
+
+.place-from, .place-to, .date-from, .date-to{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.date-select-container{
+    width: 40%;
+    margin-top: 20px;
+    position: relative;
+    float: right;
+}
+.date-select-from{
+    width: 49%;
+    text-align: center;
+    position: relative;
+    float: left;
+    padding: 10px;
+    border: 1px solid #b0b0b0;
+    border-radius: 12px;
+}
+.date-select-to{
+    width: 49%;
+    text-align: center;
+    position: relative;
+    float: right;
+    padding: 10px;
+    border: 1px solid #b0b0b0;
+    border-radius: 12px;
+}
+
+.search-car{
+    margin: 10px 20px 0 0;
+    position: relative;
+}
+
+.col-items{
+    width: 480px;
+    margin: 10px;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px hsla(0, 0%, 1%, 0.4);
+}
+.col-items:hover{
+    background-color: #ddd;
+}
+.link-schedule{
+    text-decoration: none;
+}
+.photo-schedule{
+    width: 160px;
+    height: 100px;
+    position: relative;
+    float: left;
+    border-radius:  10px 0 0 10px;
+}
+.text-schedule{
+    margin-top: 10px;
+    width: 320px;
+    float: right;
+    text-align: center;
+}
+.title-schedule{
+    color: #dc3545;
+    font-weight: 500;
+    font-size: 25px;
+}
+.details-schedule{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.distance, .time{
+    color: #616161;
+}
+.price{
+    color: #dc3545;
+}
+.ftext{
+    color: #fff;
+}

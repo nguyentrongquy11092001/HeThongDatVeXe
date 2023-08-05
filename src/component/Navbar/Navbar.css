@@ -1,0 +1,23 @@
+.logo{
+    width: 150px;
+}
+
+
+.phone{
+    color: white;
+
+}
+
+.logo_icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.nav-item{
+    padding: 0 5px;
+}
+.nav-item:hover{
+    background-color: #ddd;
+}

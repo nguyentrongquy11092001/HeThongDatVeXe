@@ -1,0 +1,14 @@
+.addBooking{
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 20px 1px hsla(0,0%,54.5%,.4);
+}
+
+.bookingList{
+    font-size: 90%;
+}
+.titleBookingList{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}

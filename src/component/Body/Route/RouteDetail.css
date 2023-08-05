@@ -1,0 +1,37 @@
+.routeDetail{
+    width: 1000px;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 20px 1px hsla(0,0%,54.5%,.4);
+    
+}
+.photo-route{
+    width: 100%;
+    border-radius: 10px;
+}
+.grid-container-route {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr; /* 2 cột đầu và 2 cột cuối */
+    grid-gap: 5px; /* Khoảng cách giữa 2 cột đầu và 2 cột cuối */
+    width: 100%;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+.btn-seat-route {
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: transparent;
+    background-image: url('https://icons.veryicon.com/png/128/miscellaneous/barley-official-icon-gallery/seat-frame.png'); /* Thay 'path_to_seat_image.jpg' với đường dẫn đến hình ảnh ghế của bạn */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+.btn-continue{
+    float: right;
+}
